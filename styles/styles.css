@@ -2,16 +2,16 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/ptsans-400.woff2) format(.woff2);
-    font-display: swap;
+    src: url(../fonts/ptsans-400.woff2) format("woff2");
+
 }
 
 @font-face{
   font-family: "PT SANS";
   font-style: normal ;
   font-weight: 700;
-  src: url(../fonts/ptsans-700.woff2) format(.woff2);
-  font-display:swap;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+
 }
 
 html {
@@ -154,12 +154,14 @@ html {
 .subscribe-form {
 
 }
-}
+
+
+
 
 
 footer {
- margin: 0;
-   display: flex;
+    margin: 0;
+    display: flex;
     flex-direction: column;
     min-height: 100%;
     font-family: "PT Sans", sans-serif;
@@ -168,8 +170,43 @@ footer {
     background-color: #ffff;
     color: #000000;
 }
-.index-columns-subscribe{
-   color: #ffffff;
+
+.catalog-columns{
+  color: #242424;
+  background-color: #fbf7f4;
+
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+
+.accommodation-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color:#000000;
+  text-transform: uppercase;
+}
+
+.control {
+    font-weight: 400;
+}
+
+
+
+.sorting-container {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.index-columns-subscribe {
+   color: #0706067e;
   background-color: #000000;
   background-image: url(../images/subscribe.jpg);
   background-size: 100% auto;
@@ -200,4 +237,81 @@ footer {
   font-weight: 400;
   text-decoration: underline;
   text-transform: uppercase;
+}
+
+
+
+
+.hotel-card {
+background-color: #ffffff;
+}
+
+.hotel-card-link {
+text-decoration: none;
+}
+
+.hotel-card-imege {
+
+
+}
+
+
+.hotel-card-title {
+  font-weight: 700;
+  color: #242424;
+}
+
+.hotel-card-type {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+
+.hotel-card-price {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.button-product-more {
+
+}
+
+.button-product-favorites {
+
+}
+
+.button-product-favorites--active {
+
+}
+
+.hotel-card-stars {
+
+}
+
+
+.pagination {
+  background-color: #ffffff;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.pagination-current {
+  color: #242424;
+  background-color: #ffffff;
+}
+
+.pagination-disabled {
+  background-color: #595959;
 }
